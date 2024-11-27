@@ -1,0 +1,7 @@
+name: first-action
+on: workflow-dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "Hello, Shiva ram"
